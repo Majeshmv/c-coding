@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int i,num,fact=1;
+    int i,num1,fact=1;
     printf("Enter the number :");
-    scanf("%d",&num);
-    for(i=1;i<=num;i++)
+    scanf("%d",&num1);
+    for(i=1;i<=num1;i++)
         fact=fact*i;
-    printf("factorial of the number :%d",fact,num);
+    printf("factorial of the number :%d %d",fact,num1);
     return 0;
 }
